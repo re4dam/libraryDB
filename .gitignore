@@ -1,0 +1,21 @@
+# Build results
+bin/
+obj/
+
+# Visual Studio specific files
+.vs/
+*.user
+*.suo
+
+# Node.js (only if you add a web frontend later)
+node_modules/
+
+# Logs and Temp files
+*.log
+*.tmp
+
+# VS Code User Settings (Keep launch.json/tasks.json if you have them)
+.vscode/settings.json
+
+# Database files (if you use local SQLite)
+*.db
