@@ -40,8 +40,7 @@ public class Member
             return false;
         }
     }
-
-    public MemberModel Read(int id)
+    public MemberModel? Read(int id)
     {
         try
         {
@@ -75,7 +74,6 @@ public class Member
         
         return null;
     }
-
     public List<MemberModel> ReadAll()
     {
         List<MemberModel> members = new List<MemberModel>();
@@ -110,7 +108,6 @@ public class Member
         
         return members;
     }
-
     public bool Update(MemberModel memberModel)
     {
         try
@@ -137,7 +134,6 @@ public class Member
             return false;
         }
     }
-
     public bool Delete(int id)
     {
         try

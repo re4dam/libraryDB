@@ -41,7 +41,7 @@ public class Staff
         }
     }
 
-    public StaffModel Read(int id)
+    public StaffModel? Read(int id)
     {
         try
         {

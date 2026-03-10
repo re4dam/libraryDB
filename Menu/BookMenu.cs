@@ -1,6 +1,12 @@
 using System;
 namespace LibraryConsole;
 
+/*
+Book tables Management
+Allowing features to Create new book, Show all books,
+Update existing book, and delete book
+*/
+
 class BookMenu
 {
     private Book BookService;

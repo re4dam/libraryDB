@@ -41,7 +41,7 @@ public class Book
         }
     }
 
-    public BookModel Read(int id)
+    public BookModel? Read(int id)
     {
         try
         {
