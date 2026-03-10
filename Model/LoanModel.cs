@@ -7,15 +7,16 @@ public class LoanModel
     public int BookId { get; private set; }
     public int MemberId { get; private set; }
     public int StaffId { get; private set; }
-    public DateTime LoanDate { get; private set; }
-
-    public LoanModel(int id, int bookId, int memberId, int staffId, DateTime loanDate)
+    public DateTime BorrowDate { get; private set; }
+    public DateTime DueDate { get; private set; }
+    public LoanModel(int id, int bookid, int memberid, int staffid, DateTime borrowDate, DateTime dueDate)
     {
         Id = id;
-        BookId = bookId;
-        MemberId = memberId;
-        StaffId = staffId;
-        LoanDate = loanDate;
+        BookId = bookid;
+        MemberId = memberid;
+        StaffId = staffid;
+        BorrowDate = borrowDate;
+        DueDate = dueDate;
     }
 
 }
